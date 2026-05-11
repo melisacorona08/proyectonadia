@@ -20,11 +20,7 @@ from kivymd.uix.card import MDCard
 from reportlab.pdfgen import canvas as rl_canvas
 from reportlab.lib.pagesizes import letter
 
-import os
-os.environ["KIVY_GL_BACKEND"] = "angle_sdl2"
-
-from kivy.app import App
-
+ 
 def _w():
     return Window.width
 
